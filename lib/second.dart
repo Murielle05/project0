@@ -14,6 +14,9 @@ class _MySecondPageState extends State<MySecondPage> {
       appBar: AppBar(
         title:Text("My second Page !"),
       ),
+      body: Center(
+        child: Text("Hola !"),
+      ),
     );
   }
 }
