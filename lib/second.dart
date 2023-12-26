@@ -17,6 +17,14 @@ class _MySecondPageState extends State<MySecondPage> {
       body: Center(
         child: Text("Hola !"),
       ),
+      bottomNavigationBar: BottomNavigationBar(
+        items: [
+          BottomNavigationBarItem(icon: Icon(Icons.home)),
+          BottomNavigationBarItem(icon: Icon(Icons.settings)),
+          BottomNavigationBarItem(icon: Icon(Icons.info))
+        ],
+        
+      ),
     );
   }
 }
